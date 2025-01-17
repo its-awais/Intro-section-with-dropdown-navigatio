@@ -1,0 +1,16 @@
+:root{
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+}
+body{
+  font-size : 16px;
+  width : 100vw;
+  height : 100vh;
+  background-color: var(--Almost-White) !important;
+  
+}
+*{
+   box-sizing: border-box;
+   margin : 0;
+   padding : 0;
+}

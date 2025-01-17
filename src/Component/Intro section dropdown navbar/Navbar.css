@@ -1,0 +1,181 @@
+
+
+ul li{
+list-style-type: none;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height : auto;
+    margin : 25px;
+    font-weight: 700;
+}
+nav p{
+    font-size: 2rem;
+}
+
+ul{
+    display: flex;
+    width : 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+
+}
+
+ul ,select{
+    cursor: pointer;
+}
+select, .dropdown-button{
+    border: none;
+    background-color:   hsl(0, 0%, 98%);
+    font-weight: 700;
+}
+
+
+ul .start{
+    display: flex;
+    flex-basis: 45%;
+    justify-content: space-between;
+}
+ul .end{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 17%;
+    margin-right: 40px;
+}
+ul .end .button{
+    border : 2px solid black;
+    padding : 4px 14px;
+    border-radius: 10px;
+}
+ul li{
+    opacity: 0.7;
+}
+li:hover{
+    opacity: 1;
+}
+
+.hide{
+    display: none;
+}
+.dropdown-content{
+    width : auto;
+    height: auto;
+   background-color: rgb(236, 231, 231);
+    padding : 2rem 1.5rem;
+    position: absolute;
+    top : 3rem;
+    left : -2.4rem;
+    border-radius: 0.8rem;
+    line-height: 1.7rem;
+}
+.dropdown-item img{
+    margin-right: 0.8rem;
+}
+.dropdown{
+    position: relative;
+}
+
+.menu-icon{
+    display : none;
+    position: absolute;
+    top :30px;
+    right : 10px;
+    z-index : 10;
+    cursor : pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 0;
+  }
+  .show-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+@media(max-width : 960px){
+    .menu-icon{
+        display: inline ;
+        z-index : 3;
+    } 
+    
+    .dropdown-content {
+        position: static;
+        margin : 0.5rem 0;
+        font-weight: 600;
+    }
+    .dropdown-content span {
+        font-weight: 600;
+    }
+
+    .hides{
+        display: none;
+    }
+    .active-icon{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top : 0px;
+        right: 0;
+        width : 230px;
+        background: white;
+        transition: background 1s ease-in-out;
+        padding : 20px;
+        height : 100% !important;
+        padding-top : 3rem;
+    }
+    ul{
+      flex-direction: column;
+      z-index : 1;
+      padding-top: 1rem;
+      height : 34rem !important;
+    }
+    
+    ul .start{
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    ul .end{
+        flex-direction: column;
+        flex-basis: 100%;
+        margin-left:4rem
+    }
+    .mt-1{
+        margin-left: 16px;
+    }
+    ul li{
+        margin-top: 16px;
+    }
+    select option{
+        border : none !important;
+    }
+    .button{
+        width : 10rem;
+        text-align: center;
+    }
+     nav p{
+        font-size: 2.7rem ;
+        padding-bottom:1rem ;
+    }
+    ul .end{
+        justify-content: end;
+        margin-bottom: 1.5rem;
+    }
+    .login{
+        margin-left: 3rem !important;
+    }
+    
+}
+
+

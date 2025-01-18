@@ -1,5 +1,5 @@
 import React from 'react'
-import "./introMain.css"
+import "./IntroMain.css"
 import heroImage from "../../assets/images/image-hero-desktop.png"
 // import partner from "../../assets/images/icon-arrow-down.svg"
 const IntroMain = () => {

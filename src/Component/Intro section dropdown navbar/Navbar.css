@@ -2,13 +2,14 @@
 
 ul li{
 list-style-type: none;
+margin-right: 2.5rem;
 }
 
 nav{
     display: flex;
     width: 100%;
     height : auto;
-    margin : 25px;
+    margin :0.6rem 2rem 0rem 2rem ;
     font-weight: 700;
 }
 nav p{
@@ -35,9 +36,9 @@ select, .dropdown-button{
 
 
 ul .start{
-    display: flex;
     flex-basis: 45%;
-    justify-content: space-between;
+    display: flex;
+    margin-left: 1.8rem;
 }
 ul .end{
     display: flex;
@@ -49,6 +50,9 @@ ul .end .button{
     border : 2px solid black;
     padding : 4px 14px;
     border-radius: 10px;
+}
+ul .end .login{
+    margin-top: 0.3rem;
 }
 ul li{
     opacity: 0.7;

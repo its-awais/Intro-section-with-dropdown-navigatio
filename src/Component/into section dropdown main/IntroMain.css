@@ -2,7 +2,7 @@ main{
     width : 80%;
     display: flex;
     justify-content: center;
-    margin :  4rem;
+    margin :  4rem 0rem 0 9rem;
 }
 .jan{
     display: block !important;
@@ -14,7 +14,7 @@ main{
     flex-basis: 40%;
 }
 .hero-image{
-  height : 25rem;
+  height : 29rem;
   width: 25rem;
 }
 .first-column{
@@ -24,7 +24,7 @@ main{
     width : 8rem;
     height : 2.7rem;
     border-radius: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     color : white;
     background-color: black;
     font-weight: 700;
@@ -32,10 +32,8 @@ main{
 }
 h1{
     font-weight: 700  !important;
-    font-size: 3rem  !important ;
-    margin-bottom: 2rem  !important;
-    
-
+    font-size: 3.3rem  !important ;
+    margin-bottom: 2.8rem  !important;
 }
 @media(max-width : 940px){
     main{
@@ -51,7 +49,6 @@ h1{
         width : 100%;
         height: 100%;
         max-height: 30rem;
-        
     }
     .second-column{
         flex-basis: 100%;

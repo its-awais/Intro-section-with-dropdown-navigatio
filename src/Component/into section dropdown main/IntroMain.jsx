@@ -16,7 +16,6 @@ const IntroMain = () => {
     <div className="second-column">
       <img className='hero-image' src={heroImage} alt="remote work" />
     </div>
-    {/* <img src={partner} alt="we meant for each other" /> */}
     </main>
     </>
   )
